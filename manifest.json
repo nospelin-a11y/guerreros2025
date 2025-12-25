@@ -1,0 +1,18 @@
+
+{
+  "name": "Guerreros 2026",
+  "short_name": "Guerreros",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#ea580c",
+  "description": "Seguimiento de entrenamientos Guerreros 2026",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3022/3022510.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
