@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
+    reportCompressedSize: false,
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'lucide-react'],
-          utils: ['date-fns']
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-icons': ['lucide-react']
         }
       }
     }
